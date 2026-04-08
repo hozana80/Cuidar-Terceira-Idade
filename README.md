@@ -1,7 +1,7 @@
 # 🚀 Cuidar Terceira Idade
 
 ## 📌 Sobre o Projeto
-A API **Cuidar Terceira Idade** foi criada para registrar e gerenciar problemas urbanos, como:
+A API **Cuidar Terceira Idade** foi criada para registrar e gerenciar problemas de atendimento, como:
 
 - Medicação
 - Alimentação
@@ -57,9 +57,9 @@ database.db
 |id                |Identificador único      |
 |tipo_atendimento  |Tipo do atendimento         |
 |localizacao       |Onde ocorreu             |
-|descricao         |Detalhes do incidente    |
+|descricao         |Detalhes do atendimento    |
 |prioridade        |Baixa, Média ou Alta     |    
-|nome_paciente     |Quem registrou           |
+|nome_paciente     |Quem foi atendido          |
 |data_registro     |Data do registro         |
 |hora_registro     |Hora do registro         |
 |status_resolucao  |Status (Padrão: Pendente)|
